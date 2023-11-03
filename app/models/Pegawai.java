@@ -1,20 +1,22 @@
 package models;
- 
+
 import play.*;
 import play.db.jpa.*;
- 
+
 import javax.persistence.*;
+
+import controllers.Kotas;
+
 import java.util.*;
- 
+
 @Entity
-public class Mahasiswa extends Model {
+public class Pegawai extends Model {
     public String nama;
-    public String nim;
-    public String alamat;
-    public Date tanggalLahir;
-    public String kodepos;
+    public String umur;
     @ManyToOne
-    public JenisKelamin kelamin;
+    public GolonganDarah goldar;
+    @ManyToOne
+    public Kota kota;
     public String toString(){
         return this.nama;
     }
