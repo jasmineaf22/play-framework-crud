@@ -1,0 +1,302 @@
+02 Nov 2023 19:59:52,563 INFO  ~ Starting C:\Users\jasmi\play\test
+02 Nov 2023 19:59:52,942 INFO  ~ Module docviewer is available (C:\Users\jasmi\play\modules\docviewer)
+02 Nov 2023 19:59:52,943 INFO  ~ Module crud is available (C:\Users\jasmi\play\modules\crud)
+02 Nov 2023 19:59:53,640 WARN  ~ You're running Play! in DEV mode
+02 Nov 2023 19:59:53,930 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+02 Nov 2023 20:00:02,514 ERROR ~ 
+
+@83dh09ad1
+Failed to compile template /app/views/errors/500.html
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAssignableClasses(ApplicationClassloader.java:479) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:30) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:86) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:194) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.server.PlayHandler.serve500(PlayHandler.java:787) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:02,640 ERROR ~ 
+
+@83dh09ad0
+Internal Server Error (500) for request GET /admin
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.start(Play.java:543) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.detectChanges(Play.java:676) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Invoker$Invocation.init(Invoker.java:220) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:02,643 ERROR ~ 
+
+@83dh09ad2
+Error during the 500 response generation
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAssignableClasses(ApplicationClassloader.java:479) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.endTag(GroovyTemplateCompiler.java:359) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.generate(TemplateCompiler.java:93) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:15) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:37) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:86) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:194) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.server.PlayHandler.serve500(PlayHandler.java:787) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:03,104 ERROR ~ Restart: null
+java.lang.NullPointerException: null
+	at java.lang.instrument.ClassDefinition.<init>(ClassDefinition.java:63) ~[?:?]
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:343) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.detectChanges(Play.java:659) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Invoker$Invocation.init(Invoker.java:220) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:03,372 ERROR ~ 
+
+@83dh09ad4
+Failed to compile template /app/views/errors/500.html
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAssignableClasses(ApplicationClassloader.java:479) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:30) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:86) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:194) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.server.PlayHandler.serve500(PlayHandler.java:787) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:03,474 ERROR ~ 
+
+@83dh09ad3
+Internal Server Error (500) for request GET /admin
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.start(Play.java:543) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.detectChanges(Play.java:679) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Invoker$Invocation.init(Invoker.java:220) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:03,478 ERROR ~ 
+
+@83dh09ad5
+Error during the 500 response generation
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAssignableClasses(ApplicationClassloader.java:479) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.endTag(GroovyTemplateCompiler.java:359) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.generate(TemplateCompiler.java:93) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:15) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:37) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:86) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:194) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.server.PlayHandler.serve500(PlayHandler.java:787) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:10,001 ERROR ~ Restart: null
+java.lang.NullPointerException: null
+	at java.lang.instrument.ClassDefinition.<init>(ClassDefinition.java:63) ~[?:?]
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:343) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.detectChanges(Play.java:659) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Invoker$Invocation.init(Invoker.java:220) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:10,249 ERROR ~ 
+
+@83dh09ad7
+Failed to compile template /app/views/errors/500.html
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAssignableClasses(ApplicationClassloader.java:479) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:30) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:86) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:194) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.server.PlayHandler.serve500(PlayHandler.java:787) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:10,351 ERROR ~ 
+
+@83dh09ad6
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.start(Play.java:543) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.detectChanges(Play.java:679) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Invoker$Invocation.init(Invoker.java:220) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:10,358 ERROR ~ 
+
+@83dh09ad8
+Error during the 500 response generation
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAssignableClasses(ApplicationClassloader.java:479) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.endTag(GroovyTemplateCompiler.java:359) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.generate(TemplateCompiler.java:93) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:15) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:37) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:86) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:194) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.server.PlayHandler.serve500(PlayHandler.java:787) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:11,079 ERROR ~ Restart: null
+java.lang.NullPointerException: null
+	at java.lang.instrument.ClassDefinition.<init>(ClassDefinition.java:63) ~[?:?]
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:343) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.detectChanges(Play.java:659) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Invoker$Invocation.init(Invoker.java:220) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:11,336 ERROR ~ 
+
+@83dh09ada
+Failed to compile template /app/views/errors/500.html
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAssignableClasses(ApplicationClassloader.java:479) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:30) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:86) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:194) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.server.PlayHandler.serve500(PlayHandler.java:787) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:11,538 ERROR ~ 
+
+@83dh09ad9
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.start(Play.java:543) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Play.detectChanges(Play.java:679) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.Invoker$Invocation.init(Invoker.java:220) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]
+02 Nov 2023 20:00:11,545 ERROR ~ 
+
+@83dh09adb
+Error during the 500 response generation
+
+Compilation error (In /app/controllers/Mahasiswas.java around line 2)
+The file /app/controllers/Mahasiswas.java could not be compiled. Error raised is : play.modules.crud.CRUD cannot be resolved
+
+play.exceptions.CompilationException: play.modules.crud.CRUD cannot be resolved
+	at play.classloading.ApplicationCompiler.lambda$compile$0(ApplicationCompiler.java:282) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:795) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:639) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:475) ~[ecj-3.33.0.jar:?]
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:426) ~[ecj-3.33.0.jar:?]
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:316) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAllClasses(ApplicationClassloader.java:437) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.classloading.ApplicationClassloader.getAssignableClasses(ApplicationClassloader.java:479) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.endTag(GroovyTemplateCompiler.java:359) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.generate(TemplateCompiler.java:93) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:15) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.GroovyTemplateCompiler.compile(GroovyTemplateCompiler.java:37) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:28) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:86) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.templates.TemplateLoader.load(TemplateLoader.java:194) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at play.server.PlayHandler.serve500(PlayHandler.java:787) ~[play-1.7.x-1.7.1-72-gee3958ad.jar:?]
+	at Invocation.HTTP Request(Play!) ~[?:?]

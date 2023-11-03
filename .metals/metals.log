@@ -1,0 +1,237 @@
+2023.11.02 20:36:57 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\jasmi\play\test' for client Visual Studio Code 1.84.0.
+2023.11.02 20:36:57 INFO  time: initialize in 0.11s
+2023.11.02 20:37:01 WARN  Build server is not auto-connectable.
+2023.11.02 20:37:01 WARN  no build tool detected in workspace 'C:\Users\jasmi\play\test'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.11.02 20:37:01 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+2023.11.02 20:37:01 WARN  no build target for: C:\Users\jasmi\play\test\app\models\JenisKelamin.java
+2023.11.02 20:37:01 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Application.java
+2023.11.02 20:37:01 WARN  no build target for: C:\Users\jasmi\play\test\app\models\Mahasiswa.java
+2023.11.02 20:37:04 INFO  time: code lens generation in 3.35s
+2023.11.02 20:37:18 INFO  no build target found for C:\Users\jasmi\play\test\app\models\Mahasiswa.java. Using presentation compiler with project's scala-library version: 3.3.1
+Nov 02, 2023 8:37:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-37-21-688.md
+Nov 02, 2023 8:37:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-37-22-440.md
+Nov 02, 2023 8:37:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-37-23-346.md
+Nov 02, 2023 8:38:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-38-29-879.md
+Nov 02, 2023 8:38:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-38-30-581.md
+Nov 02, 2023 8:38:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-38-30-892.md
+Nov 02, 2023 8:38:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-38-31-212.md
+Nov 02, 2023 8:42:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-42-32-502.md
+Nov 02, 2023 8:42:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-42-43-472.md
+Nov 02, 2023 8:42:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-42-44-662.md
+Nov 02, 2023 8:42:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-42-47-529.md
+Nov 02, 2023 8:42:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-42-48-916.md
+Nov 02, 2023 8:43:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+Nov 02, 2023 8:43:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-09-019.md
+Nov 02, 2023 8:43:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-09-743.md
+2023.11.02 20:43:10 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:43:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-11-109.md
+Nov 02, 2023 8:43:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-12-050.md
+2023.11.02 20:43:12 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:43:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-12-800.md
+Nov 02, 2023 8:43:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+Nov 02, 2023 8:43:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+Nov 02, 2023 8:43:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-26-937.md
+Nov 02, 2023 8:43:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-27-643.md
+2023.11.02 20:43:37 WARN  Running javac-semanticdb failed for file:///C:/Users/jasmi/play/test/app/controllers/Mahasiswas.java. Output:
+
+Nov 02, 2023 8:43:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-37-818.md
+2023.11.02 20:43:38 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:43:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-38-502.md
+Nov 02, 2023 8:43:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-41-008.md
+Nov 02, 2023 8:43:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-44-801.md
+Nov 02, 2023 8:43:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-51-449.md
+Nov 02, 2023 8:43:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-51-835.md
+2023.11.02 20:43:52 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:43:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-52-780.md
+Nov 02, 2023 8:43:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-57-810.md
+Nov 02, 2023 8:43:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-43-58-098.md
+2023.11.02 20:44:02 WARN  Running javac-semanticdb failed for file:///C:/Users/jasmi/play/test/app/controllers/Mahasiswas.java. Output:
+
+Nov 02, 2023 8:44:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-03-101.md
+2023.11.02 20:44:03 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:44:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-03-682.md
+Nov 02, 2023 8:44:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-06-333.md
+Nov 02, 2023 8:44:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-13-293.md
+Nov 02, 2023 8:44:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-13-770.md
+2023.11.02 20:44:14 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:44:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-14-846.md
+2023.11.02 20:44:19 WARN  Running javac-semanticdb failed for file:///C:/Users/jasmi/play/test/app/controllers/Mahasiswas.java. Output:
+
+Nov 02, 2023 8:44:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-19-636.md
+2023.11.02 20:44:20 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:44:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-20-280.md
+Nov 02, 2023 8:44:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-21-481.md
+Nov 02, 2023 8:44:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-21-961.md
+Nov 02, 2023 8:44:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-22-463.md
+Nov 02, 2023 8:44:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-22-965.md
+Nov 02, 2023 8:44:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-23-860.md
+2023.11.02 20:44:24 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:44:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-24-452.md
+2023.11.02 20:44:29 WARN  Running javac-semanticdb failed for file:///C:/Users/jasmi/play/test/app/controllers/Mahasiswas.java. Output:
+
+Nov 02, 2023 8:44:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-29-941.md
+2023.11.02 20:44:30 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:44:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-44-30-612.md
+Nov 02, 2023 8:45:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-45-21-631.md
+Nov 02, 2023 8:45:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-45-26-237.md
+2023.11.02 20:45:26 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Mahasiswas.java
+Nov 02, 2023 8:45:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-45-26-850.md
+Nov 02, 2023 8:45:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-45-32-754.md
+Nov 02, 2023 8:45:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-45-35-580.md
+Nov 02, 2023 8:45:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-45-41-054.md
+Nov 02, 2023 8:45:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-45-42-868.md
+Nov 02, 2023 8:46:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-46-52-073.md
+Nov 02, 2023 8:46:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-46-52-359.md
+Nov 02, 2023 8:46:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-46-57-914.md
+2023.11.02 20:46:58 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\Application.java
+2023.11.02 20:46:58 INFO  time: code lens generation in 1.29s
+Nov 02, 2023 8:46:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-46-58-979.md
+Nov 02, 2023 8:46:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-46-59-335.md
+Nov 02, 2023 8:48:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-48-25-789.md
+Nov 02, 2023 8:50:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-37-610.md
+2023.11.02 20:50:41 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\JenisKelamins.java
+Nov 02, 2023 8:50:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-41-535.md
+Nov 02, 2023 8:50:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-43-098.md
+Nov 02, 2023 8:50:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-43-760.md
+Nov 02, 2023 8:50:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-44-519.md
+Nov 02, 2023 8:50:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-45-147.md
+Nov 02, 2023 8:50:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-45-913.md
+Nov 02, 2023 8:50:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-46-308.md
+2023.11.02 20:50:46 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\JenisKelamins.java
+Nov 02, 2023 8:50:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-46-971.md
+2023.11.02 20:50:47 WARN  Running javac-semanticdb failed for file:///C:/Users/jasmi/play/test/app/controllers/JenisKelamins.java. Output:
+
+Nov 02, 2023 8:50:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-47-951.md
+2023.11.02 20:50:48 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\JenisKelamins.java
+Nov 02, 2023 8:50:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-48-633.md
+Nov 02, 2023 8:50:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-52-765.md
+Nov 02, 2023 8:50:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-55-788.md
+Nov 02, 2023 8:50:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-55-922.md
+Nov 02, 2023 8:50:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-58-140.md
+Nov 02, 2023 8:50:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-58-234.md
+Nov 02, 2023 8:50:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-50-58-481.md
+Nov 02, 2023 8:51:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-51-05-614.md
+2023.11.02 20:51:06 WARN  no build target for: C:\Users\jasmi\play\test\app\controllers\JenisKelamins.java
+Nov 02, 2023 8:51:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-51-06-265.md
+Nov 02, 2023 8:51:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-51-11-611.md
+Nov 02, 2023 8:51:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-51-13-174.md
+Nov 02, 2023 8:53:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-53-46-075.md
+Nov 02, 2023 8:54:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-01-121.md
+Nov 02, 2023 8:54:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-01-727.md
+Nov 02, 2023 8:54:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-02-011.md
+Nov 02, 2023 8:54:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-03-129.md
+Nov 02, 2023 8:54:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-03-937.md
+2023.11.02 20:54:04 WARN  no build target for: C:\Users\jasmi\play\test\app\models\Mahasiswa.java
+Nov 02, 2023 8:54:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-04-554.md
+Nov 02, 2023 8:54:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-08-285.md
+2023.11.02 20:54:08 WARN  no build target for: C:\Users\jasmi\play\test\app\models\Mahasiswa.java
+Nov 02, 2023 8:54:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-09-200.md
+Nov 02, 2023 8:54:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_20-54-10-205.md
+Nov 02, 2023 9:31:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 331
+Nov 02, 2023 9:31:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_21-31-29-498.md
+Nov 02, 2023 9:31:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_21-31-30-250.md
+Nov 02, 2023 9:31:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_21-31-34-050.md
+Nov 02, 2023 9:31:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_21-31-38-030.md
+Nov 02, 2023 9:31:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_21-31-38-784.md
+Nov 02, 2023 9:31:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\jasmi\play\test\.metals\.reports\metals-full\2023-11-02\r_compiler-error_21-31-39-199.md
+2023.11.02 21:32:17 INFO  Shutting down server
+2023.11.02 21:32:17 INFO  shutting down Metals
+2023.11.02 21:32:17 INFO  Exiting server
