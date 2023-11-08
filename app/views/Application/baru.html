@@ -1,0 +1,19 @@
+
+<form action="@{Application.simpan()}" method="post" name="pegawai">
+    Nama: <input type="text" name="pegawai.nama"><br>
+    Umur: <input type="text" name="pegawai.umur"><br>
+    Goldar:
+    <select name="pegawai.goldar.id">
+        #{list golongandarahs, as: 'goldar'}
+        <option value="${goldar.id}">${goldar.namaGoldar}</option>
+        #{/list}
+    </select><br>
+    Kota:
+    <select name="pegawai.kota.id">
+        #{list kotas, as: 'kota'}
+        <option value="${kota.id}">${kota.namaKota}</option>
+        #{/list}
+    </select><br>
+    <input type="hidden" name="pegawai.id" value="0">
+    <input type="submit" value="Simpan">
+</form>

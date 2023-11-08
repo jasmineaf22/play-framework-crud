@@ -1,0 +1,26 @@
+<table border="1">
+    <tr>
+        <th>Nama</th>
+        <th>Umur</th>
+        <th>Golongan Darah</th>
+        <th>Kota</th>
+        <th>Aksi</th>
+    </tr>
+
+    #{list items: daftar, as: 'x'}
+    <tr>
+        <td>${x.nama}</td>
+        <td>${x.umur}</td>
+        <td>${x.goldar.namaGoldar}</td>
+        <td>${x.kota.namaKota}</td>
+        <td>
+            <form action="@{Application.edit(x.id)}">
+                <a href="@{Application.edit(x.id)}">edit</a>
+            </form>
+    </tr>
+    #{/list}
+
+    <form action="@{Application.baru()}">
+        <input type="submit" value="baru">
+    </form>
+</table>

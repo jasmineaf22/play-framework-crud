@@ -1,0 +1,20 @@
+
+<form action="@{Application.simpan()}" method="post" name="pegawai">
+    Nama: <input type="text" name="pegawai.nama" value="${z?.nama}"><br>
+    Umur: <input type="text" name="pegawai.umur" value="${z?.umur}"><br>
+    Goldar:
+    <select name="pegawai.goldar.id">
+        #{list golongandarahs, as: 'goldar'}
+        <option value="${goldar.id}" #{if goldar.id == z?.goldar?.id}selected#{/if}>${goldar.namaGoldar}</option>
+        #{/list}
+    </select>
+    <br>
+    Kota:
+    <select name="pegawai.kota.id">
+        #{list kotas, as: 'kota'}
+        <option value="${kota.id}" #{if kota.id == z?.kota?.id}selected#{/if}>${kota.namaKota}</option>
+        #{/list}
+    </select><br>
+    <input type="hidden" name="pegawai.id" value="${z?.id}">
+    <input type="submit" value="Simpan">
+</form>
