@@ -5,8 +5,6 @@ import play.db.jpa.*;
 
 import javax.persistence.*;
 
-import controllers.Kotas;
-
 import java.util.*;
 
 @Entity
@@ -17,7 +15,8 @@ public class Pegawai extends Model {
     public GolonganDarah goldar;
     @ManyToOne
     public Kota kota;
-    public String toString(){
+
+    public String toString() {
         return this.nama;
     }
 }

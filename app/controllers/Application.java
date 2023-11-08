@@ -1,31 +1,64 @@
 package controllers;
 
-import play.*;
-import play.mvc.*;
-
-import java.util.*;
-
 import models.*;
+import play.mvc.Controller;
+import play.mvc.With;
 
+
+import java.util.List;
+@With(Secure.class)
 public class Application extends Controller {
 
     public static void index() {
-        render();
+        String user = Security.connected();
+        render(user);
     }
-    // public static void test(){
-    //     render();
-    // }
-    // public static void proses(int x, int y){
-    //     int hasil = x + y;
-    //     render(hasil);
-    // }
 
-    // public static void newPegawai(){
-    //     render();
-    // }
+    public static void tampilkan() {
+        List<Pegawai> daftar = Pegawai.findAll();
+        render(daftar);
+    }
 
-    // public static void buatBaru(Pegawais objpgw){
-    //     objpgw.nama=objpgw.nama + " test";
-    //     render(objpgw);
-    // }
+    public static void baru() {
+        List<GolonganDarah> golongandarahs = GolonganDarah.findAll();
+        List<Kota> kotas = Kota.findAll();
+        render(golongandarahs, kotas);
+    }
+
+    public static void simpan(Pegawai pegawai) {
+    Pegawai newPegawai = new Pegawai();
+    newPegawai.nama = pegawai.nama;
+    newPegawai.umur = pegawai.umur;
+    newPegawai.goldar = pegawai.goldar;
+    newPegawai.kota = pegawai.kota;
+    newPegawai.save();
+    tampilkan();
 }
+
+    // public static void hapus(Long id) {
+    //     Pegawai pegawai = Pegawai.findById(id);
+    //     pegawai.delete();
+    //     tampilkan();
+    // }
+
+    public static void edit(Long id) {
+        Pegawai z = Pegawai.find("id=?1", id).first();
+        List<GolonganDarah> golongandarahs = GolonganDarah.findAll();
+        List<Kota> kotas = Kota.findAll();
+        render(z, golongandarahs, kotas);
+    }
+
+    // public static void update(Pegawai pegawai) {
+    //     Pegawai newPegawai = Pegawai.findById(pegawai.id);
+    //     newPegawai.nama = pegawai.nama;
+    //     newPegawai.umur = pegawai.umur;
+    //     newPegawai.goldar = pegawai.goldar;
+    //     newPegawai.kota = pegawai.kota;
+    //     newPegawai.save();
+    //     tampilkan();
+    // }
+
+
+    
+}
+

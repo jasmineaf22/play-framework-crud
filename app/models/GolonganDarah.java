@@ -9,7 +9,7 @@ import java.util.*;
 @Entity
 public class GolonganDarah extends Model {
     public String namaGoldar;
-    public String toString(){
+    public String toString() {
         return this.namaGoldar;
     }
 }
